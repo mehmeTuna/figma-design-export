@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+  font-family: 'Poppins', system-ui;
+}
+
+@theme {
+    --primary-colour: #3A0CA3;
+    --color-regal-blue: #4361EE4D;
+    --main-bg-color: linear-gradient(180deg, rgba(76, 201, 240, 0) 0%, rgba(67, 97, 238, 0.3) 100%);
+    --other-bg-color: background: linear-gradient(180deg, #4361EE 0%, rgba(67, 97, 238, 0) 100%);
+}
+
+@layer utilities {
+  /* Text Styles */
+  .text-h1 {
+    @apply text-[57.3px] font-semibold;
+  }
+
+  .text-h2-semibold {
+    @apply text-[39.8px] font-semibold;
+  }
+
+  .text-h2-medium {
+    @apply text-[39.8px] font-medium;
+  }
+
+  .text-h3-semibold {
+    @apply text-[27.6px] font-semibold;
+  }
+
+  .text-h3-medium {
+    @apply text-[27.6px] font-medium;
+  }
+
+  .text-h4-semibold {
+    @apply text-[19.4px] font-semibold;
+  }
+
+  .text-h4-medium {
+    @apply text-[19.4px]  font-medium;
+  }
+
+  .text-paragraph {
+    @apply text-[16px] font-normal;
+  }
+
+  .text-h5 {
+    @apply text-[16px] font-medium;
+  }
+
+  .text-small {
+    @apply text-[13.3px] font-normal;
+  }
+
+  /* Color Styles */
+  .text-primary {
+    color: #3D0CDA;
+  }
+
+  .text-colour-1 {
+    color: #3C6FF0;
+  }
+
+  .text-colour-2 {
+    color: #2EC6F1;
+  }
+
+  .text-colour-3 {
+    color: #5D00B9;
+  }
+
+  .text-colour-4 {
+    color: #F8176D;
+  }
+
+  .text-text-1 {
+    color: #000000;
+  }
+
+  .text-text-2 {
+    color: #1C1C1C;
+  }
+
+  .text-text-3 {
+    color: #4B4B4B;
+  }
+
+  .text-text-4 {
+    color: #8A8A8A;
+  }
+
+  .text-text-5 {
+    color: #CFCFCF;
+  }
+
+  .bg-primary {
+    background-color: #3D0CDA;
+  }
+
+  .bg-white {
+    background-color: #FFFFFF;
+  }
+}
