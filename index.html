@@ -7,7 +7,50 @@
   </head>
 
   <body>
-    <div class="bg-[#3A0CA3] hidden lg:block">
+    <div class="flex md:hidden justify-between items-center px-6 py-4">
+      <div class="flex items-center flex-row gap-2">
+        <div class="bg-[#3A0CA3] p-3 rounded-full">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_2_3)">
+              <path
+                d="M23.715 9.16499L12.465 0.164989C12.332 0.0584866 12.1667 0.000457764 11.9963 0.000457764C11.8258 0.000457764 11.6605 0.0584866 11.5275 0.164989L0.2775 9.16499C0.156135 9.26236 0.0680565 9.39506 0.025468 9.54471C-0.0171205 9.69436 -0.0121105 9.85356 0.0398037 10.0002C0.091718 10.1469 0.187966 10.2738 0.315214 10.3634C0.442461 10.4529 0.594407 10.5006 0.75 10.5H2.25V23.25C2.25 23.4489 2.32902 23.6397 2.46967 23.7803C2.61032 23.921 2.80109 24 3 24H18V22.5H15V15.75C15 15.5511 14.921 15.3603 14.7803 15.2197C14.6397 15.079 14.4489 15 14.25 15H9.75C9.55109 15 9.36032 15.079 9.21967 15.2197C9.07902 15.3603 9 15.5511 9 15.75V22.5H3.75V10.5H16.5V8.99999H2.8875L12 1.70999L21.1125 8.99999H21C20.8011 8.99999 20.6103 9.07901 20.4697 9.21966C20.329 9.36031 20.25 9.55108 20.25 9.74999V14.25H21.75V10.5H23.25C23.405 10.4991 23.5558 10.4502 23.6819 10.3601C23.8079 10.27 23.903 10.143 23.9539 9.9967C24.0049 9.85037 24.0093 9.69184 23.9665 9.54291C23.9237 9.39398 23.8359 9.26195 23.715 9.16499ZM10.5 16.5H13.5V22.5H10.5V16.5Z"
+                fill="white"
+              />
+              <path
+                d="M18.75 19.9425L17.7825 18.975L16.725 20.0325L18.225 21.5325C18.3655 21.6722 18.5556 21.7506 18.7537 21.7506C18.9519 21.7506 19.142 21.6722 19.2825 21.5325L23.7825 17.0325L22.725 15.975L18.75 19.9425Z"
+                fill="white"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_2_3">
+                <rect width="24" height="24" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+        <p>Logo</p>
+      </div>
+      <div class="cursor-pointer">
+        <svg
+          width="24"
+          height="22"
+          viewBox="0 0 24 22"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M24 0H0V2.18182H24V0Z" fill="#0B090A" />
+          <path d="M24 9.81818H0V12H24V9.81818Z" fill="#0B090A" />
+          <path d="M24 19.6364H0V21.8182H24V19.6364Z" fill="#0B090A" />
+        </svg>
+      </div>
+    </div>
+    <div class="bg-[#3A0CA3] hidden md:block">
       <div
         class="max-w-[90rem] mx-auto h-[2.5rem] flex justify-between text-white pl-25 pr-[8.5rem]"
       >
@@ -194,14 +237,20 @@
           rgba(67, 97, 238, 0.3) 100%
         );
       "
-      class="max-w-[90rem] mx-auto rounded-b-full height-[51.375rem]"
+      class="max-w-[90rem] mx-auto rounded-b-full h-full height-[55.875rem] md:height-[51.375rem]"
     >
       <div
-        class="flex flex-col lg:flex-row items-center justify-between mx-auto lg:px-40"
+        class="flex flex-col md:flex-row items-center justify-between mx-4 md:mx-auto lg:px-40"
       >
-        <div class="relative mt-22 max-w-xl">
-          <p class="text-[#4361EE] text-xl mb-7.5 font-medium">REAL ESTATE</p>
-          <p class="text-[#0B090A] text-6xl mb-10 font-semibold">
+        <div class="relative mt-10 md:mt-22 max-w-xl w-full">
+          <p
+            class="text-[#4361EE] text-base md:text-xl mb-4 md:mb-7.5 font-medium"
+          >
+            REAL ESTATE
+          </p>
+          <p
+            class="text-[#0B090A] text-4xl md:text-6xl mb-7 md:mb-10 font-semibold"
+          >
             Find a perfect home you love..!
           </p>
           <p class="text-[#808080] font-normal text-base mb-10">
@@ -311,32 +360,32 @@
                   rgba(67, 97, 238, 0) 100%
                 );
               "
-              class="z-1 -rotate-[-30deg] size-15 rounded-full absolute top-0 right-0 translate-x-[50%] translate-y-[-60%]"
+              class="z-1 -rotate-[-30deg] size-15 rounded-full absolute top-0 right-14 md:right-0 translate-x-[50%] translate-y-[-60%]"
             ></div>
           </div>
           <div
             class="h-[0.25rem] flex flex-row justify-between gap-9 mt-3 px-2"
           >
             <div class="w-25 h-full bg-[#4361EE] rounded-full"></div>
-            <div class="w-25 h-full bg-white opacity-50 rounded-full"></div>
-            <div class="w-25 h-full bg-white opacity-50 rounded-full"></div>
-            <div class="w-25 h-full bg-white opacity-50 rounded-full"></div>
+            <div class="w-25 h-full bg-white md:opacity-50 rounded-full"></div>
+            <div class="w-25 h-full bg-white md:opacity-50 rounded-full"></div>
+            <div class="w-25 h-full bg-white md:opacity-50 rounded-full"></div>
           </div>
         </div>
         <div
           style="box-shadow: 10px 30px 50px 0px #0000000d"
-          class="bg-white rounded-2xl mt-10 lg:mt-51 max-w-xl lg:max-w-[26.25rem] w-full"
+          class="bg-white rounded-2xl mt-10 md:mt-51 max-w-xl md:max-w-[26.25rem] w-full"
         >
           <div
             class="flex items-center flex-row justify-evenly border-b border-[#AAAAAA]"
           >
             <button
-              class="border-b-4 border-[#3A0CA3] pt-10 pb-8 px-11 text-nowrap text-[#3A0CA3] text-base font-medium"
+              class="border-b-4 border-[#3A0CA3] pt-8 mb:pt-10 pb-4 mb:pb-8 px-11 text-nowrap text-[#3A0CA3] text-base font-medium"
             >
               For Sale
             </button>
             <button
-              class="pt-10 pb-8 px-11 text-nowrap text-[#808080] text-base font-medium"
+              class="pt-8 mb:pt-10 pb-4 mb:pb-8 px-11 text-nowrap text-[#808080] text-base font-medium"
             >
               For Rent
             </button>
@@ -477,7 +526,7 @@
         </div>
       </div>
       <div
-        class="flex flex-col lg:flex-row justify-center items-center mx-auto mt-20 gap-3 translate-y-1/2"
+        class="flex flex-col lg:flex-row justify-center items-center mx-auto md:mt-20 gap-3 translate-y-1/2"
       >
         <div
           class="bg-white rounded-full flex -space-x-2 overflow-hidden w-[22.6rem] px-9 py-6 items-center"
@@ -530,10 +579,12 @@
         class="-rotate-[30deg] size-20 rounded-full ml-10 opacity-50"
       ></div>
     </div>
-    <div class="max-w-[90rem] mx-auto px-5 lg:px-40 mt-50 lg:mt-0">
+    <div class="max-w-xl md:max-w-[90rem] mx-auto px-5 lg:px-40 mt-50 lg:mt-0">
       <p class="text-[#4361EE] font-medium text-xl">WHO ARE WE</p>
-      <div class="flex flex-col lg:flex-row items-center justify-between mt-10">
-        <div class="max-w-[31.25rem]">
+      <div
+        class="flex flex-col lg:flex-row items-center justify-between mt-5 md:mt-10"
+      >
+        <div class="md:max-w-[31.25rem] mb-12 md:mb-0">
           <div>
             <p class="font-semibold text-4xl mb-8">
               Assisting individuals in locating the appropriate real estate.
@@ -625,12 +676,18 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-row">
-          <img class="mt-12 w-2xs" src="public/Frame 427318431.png" />
-          <div class="ml-5">
-            <img class="w-2xs mb-5" src="public/Frame 427318433.png" />
-            <div class="w-2xs relative">
-              <img src="public/Frame 427318432.png" />
+        <div
+          class="flex flex-row flex-wrap justify-center gap-4 max-w-full overflow-hidden"
+        >
+          <img
+            src="public/Frame 427318431.png"
+            class="w-[48%] max-w-[200px] h-auto mt-12"
+          />
+
+          <div class="w-[47%] max-w-[200px] ml-0 sm:ml-5 flex flex-col">
+            <img src="public/Frame 427318433.png" class="w-full mb-5 h-auto" />
+            <div class="relative w-full">
+              <img src="public/Frame 427318432.png" class="w-full h-auto" />
               <div
                 style="
                   background: linear-gradient(
@@ -639,14 +696,15 @@
                     rgba(67, 97, 238, 0) 100%
                   );
                 "
-                class="absolute bottom-0 -rotate-[-30deg] size-20 rounded-full ml-8 opacity-50 translate-y-[60%] ml-16"
+                class="absolute bottom-0 rotate-[-30deg] size-20 rounded-full opacity-50 translate-y-[60%] left-1/2 -translate-x-1/2"
               ></div>
             </div>
           </div>
         </div>
+
         <div
           style="box-shadow: 4px 10px 30px 0px #0000000f"
-          class="flex lg:hidden items-center flex-row gap-5 mt-10 p-[1.875rem] rounded-4xl max-w-[25rem]"
+          class="flex md:hidden items-center flex-row gap-5 mt-10 p-[1.875rem] rounded-4xl max-w-xl w-full"
         >
           <svg
             width="40"
@@ -684,7 +742,7 @@
         </div>
         <div
           style="box-shadow: 4px 10px 30px 0px #0000000f"
-          class="flex lg:hidden items-center flex-row gap-5 mt-10 p-[1.875rem] rounded-4xl max-w-[25rem]"
+          class="flex md:hidden items-center flex-row gap-5 mt-10 p-[1.875rem] rounded-4xl max-w-xl w-full"
         >
           <svg
             width="44"
@@ -726,368 +784,371 @@
         </div>
       </div>
     </div>
-    <div>
+    <div
+      class="mx-3 md:mx-auto max-w-xl md:max-w-[90rem] flex flex-col lg:flex-row items-center justify-between mt-25 md:mt-50 gap-3"
+    >
+      <div class="w-full">
+        <p class="text-[#4361EE] text-lg font-medium">CHECKOUT OUR NEW</p>
+        <p class="font-semibold text-4xl mt-5 md:mt-8">
+          Latest Listed Properties
+        </p>
+        <p class="text-base font-normal mt-8 text-[#808080]">
+          Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec
+          dignissim purus.
+        </p>
+      </div>
       <div
-        class="max-w-[90rem] flex flex-col lg:flex-row items-center justify-between mx-auto mt-50 gap-3"
+        class="flex items-center justify-between flex-row gap-5 mt-10 md:mt-0 w-full md:max-w-sm"
       >
-        <div>
-          <p class="text-[#4361EE] text-lg font-medium">CHECKOUT OUR NEW</p>
-          <p class="font-semibold text-4xl mt-8">Latest Listed Properties</p>
-          <p class="text-base font-normal mt-8 text-[#808080]">
-            Donec porttitor euismod dignissim. Nullam a lacinia ipsum, <br />
-            nec dignissim purus.
+        <button
+          class="font-medium text-[#3A0CA3] text-base border border-[#3A0CA3] rounded-full px-8 py-5"
+        >
+          All
+        </button>
+        <button class="bg-[#3A0CA3] rounded-full text-white px-8 py-5">
+          Sell
+        </button>
+        <button
+          class="font-medium text-[#3A0CA3] text-base border border-[#3A0CA3] rounded-full px-8 py-5"
+        >
+          Rent
+        </button>
+      </div>
+    </div>
+    <div
+      class="max-w-xl md:max-w-[90rem] mx-auto flex flex-col lg:flex-row items-center gap-10 flex-nowrap mt-12 snap-x snap-mandatory overflow-x-auto"
+    >
+      <div class="shrink-0 snap-center snap-always">
+        <div class="relative">
+          <img src="public/Rectangle 18.png" />
+          <div
+            class="absolute bottom-8 left-8 bg-[#FFE1E1] rounded-full flex items-center gap-2 px-6 py-2"
+          >
+            <svg
+              width="20"
+              height="24"
+              viewBox="0 0 20 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.4076 12.2426C12.6672 11.8162 12.9355 11.3754 13.2006 10.9209C14.0877 9.40019 14.2505 7.86789 13.6846 6.36651C12.5427 3.33721 8.72575 1.4915 7.84209 1.19701L7.22073 0.989746L6.25093 2.92972L6.71893 3.31206C6.72417 3.31626 7.244 3.77048 7.27865 4.45905C7.30824 5.04685 6.986 5.68204 6.32112 6.34711C5.8594 6.80878 5.35264 7.25522 4.8161 7.7278C2.55865 9.71583 0 11.9697 0 16.2336C0 16.2922 0.000550676 16.3504 0.00165204 16.4083C0.0180119 17.3492 0.2201 18.2776 0.596308 19.1402C0.972516 20.0028 1.51543 20.7826 2.19387 21.4348C3.55621 22.7598 5.38285 23.4994 7.28332 23.4954H11.6306L11.0939 22.4064C8.91356 17.9812 10.4555 15.4487 12.4076 12.2426Z"
+                fill="#FF1111"
+              />
+              <path
+                d="M19.8229 16.1852C19.8103 16.1353 19.7972 16.0852 19.7835 16.0349C19.2385 14.0368 16.2218 11.4676 15.8797 11.1812L15.1925 10.6062L14.742 11.3807C13.7152 13.146 12.834 14.7561 12.4499 16.5828C12.0119 18.666 12.3067 20.7833 13.3515 23.0556L13.5535 23.4953H14.067C14.9713 23.498 15.8642 23.2929 16.6769 22.896C17.4895 22.4991 18.2001 21.9209 18.7541 21.2061C19.3046 20.5068 19.6873 19.6905 19.8726 18.82C20.0579 17.9495 20.0409 17.0481 19.8229 16.1852Z"
+                fill="#FF1111"
+              />
+            </svg>
+            <p class="color-[#FF1111]">Popular</p>
+          </div>
+        </div>
+        <div class="mt-4 md:mt-8">
+          <p class="text-2xl font-semibold">$ 5,970</p>
+          <p class="font-medium text-lg mt-5">Tranquil Haven in the Woods</p>
+          <p class="text-base font-normal mt-5">
+            103 Wright CourtBurien, WA 98168
           </p>
-        </div>
-        <div class="flex items-center flex-row gap-5">
-          <button
-            class="font-medium text-[#3A0CA3] text-base border border-[#3A0CA3] rounded-full px-8 py-5"
-          >
-            All
-          </button>
-          <button class="bg-[#3A0CA3] rounded-full text-white px-8 py-5">
-            Sell
-          </button>
-          <button
-            class="font-medium text-[#3A0CA3] text-base border border-[#3A0CA3] rounded-full px-8 py-5"
-          >
-            Rent
-          </button>
-        </div>
-      </div>
-      <div
-        class="max-w-[90rem] mx-auto flex flex-col lg:flex-row items-center gap-10 flex-nowrap mt-12 snap-x snap-mandatory overflow-x-auto"
-      >
-        <div id="card-1" class="shrink-0 snap-center snap-always">
-          <div class="relative">
-            <img src="public/Rectangle 18.png" />
-            <div
-              class="absolute bottom-8 left-8 bg-[#FFE1E1] rounded-full flex items-center gap-2 px-6 py-2"
-            >
+          <div class="flex items-center flex-row gap-5 mt-5">
+            <div class="flex items-center flex-row gap-2">
               <svg
-                width="20"
-                height="24"
-                viewBox="0 0 20 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M12.4076 12.2426C12.6672 11.8162 12.9355 11.3754 13.2006 10.9209C14.0877 9.40019 14.2505 7.86789 13.6846 6.36651C12.5427 3.33721 8.72575 1.4915 7.84209 1.19701L7.22073 0.989746L6.25093 2.92972L6.71893 3.31206C6.72417 3.31626 7.244 3.77048 7.27865 4.45905C7.30824 5.04685 6.986 5.68204 6.32112 6.34711C5.8594 6.80878 5.35264 7.25522 4.8161 7.7278C2.55865 9.71583 0 11.9697 0 16.2336C0 16.2922 0.000550676 16.3504 0.00165204 16.4083C0.0180119 17.3492 0.2201 18.2776 0.596308 19.1402C0.972516 20.0028 1.51543 20.7826 2.19387 21.4348C3.55621 22.7598 5.38285 23.4994 7.28332 23.4954H11.6306L11.0939 22.4064C8.91356 17.9812 10.4555 15.4487 12.4076 12.2426Z"
-                  fill="#FF1111"
-                />
-                <path
-                  d="M19.8229 16.1852C19.8103 16.1353 19.7972 16.0852 19.7835 16.0349C19.2385 14.0368 16.2218 11.4676 15.8797 11.1812L15.1925 10.6062L14.742 11.3807C13.7152 13.146 12.834 14.7561 12.4499 16.5828C12.0119 18.666 12.3067 20.7833 13.3515 23.0556L13.5535 23.4953H14.067C14.9713 23.498 15.8642 23.2929 16.6769 22.896C17.4895 22.4991 18.2001 21.9209 18.7541 21.2061C19.3046 20.5068 19.6873 19.6905 19.8726 18.82C20.0579 17.9495 20.0409 17.0481 19.8229 16.1852Z"
-                  fill="#FF1111"
-                />
-              </svg>
-              <p class="color-[#FF1111]">Popular</p>
-            </div>
-          </div>
-          <div class="mt-8">
-            <p class="text-2xl font-semibold">$ 5,970</p>
-            <p class="font-medium text-lg mt-5">Tranquil Haven in the Woods</p>
-            <p class="text-base font-normal mt-5">
-              103 Wright CourtBurien, WA 98168
-            </p>
-            <div class="flex items-center flex-row gap-5 mt-5">
-              <div class="flex items-center flex-row gap-2">
-                <svg
-                  width="30"
-                  height="23"
-                  viewBox="0 0 30 23"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M25 5.48975H12V13.0284H10.6154V10.4659C10.6138 9.01407 10.0363 7.62213 9.00971 6.5955C7.9831 5.56887 6.59117 4.99138 5.13931 4.98975H2V0.989746H0V22.4897H2V19.5058L28 19.7138V22.4897H30V10.4897C29.9985 9.16413 29.4712 7.89323 28.5339 6.95587C27.5965 6.01852 26.3256 5.49125 25 5.48975ZM2 6.98975H5.13931C6.0609 6.99079 6.94445 7.35735 7.59611 8.00901C8.24777 8.66067 8.61433 9.54422 8.61537 10.4658V13.0283H2V6.98975ZM28 17.7137L2 17.5057V15.0284H28V17.7137ZM28 13.0284H14V7.48975H25C25.7954 7.49066 26.5579 7.80702 27.1203 8.36943C27.6827 8.93184 27.9991 9.69438 28 10.4897V13.0284Z"
-                    fill="#2B2B2B"
-                  />
-                </svg>
-                <p>4 Beds</p>
-              </div>
-              <div class="flex items-center flex-row gap-2">
-                <svg
-                  width="24"
-                  height="25"
-                  viewBox="0 0 24 25"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M22.4 14.2494H3.2V5.24938C3.19907 4.91045 3.26538 4.5747 3.39509 4.26156C3.5248 3.94843 3.71533 3.66413 3.95565 3.42513L3.97565 3.40513C4.35228 3.02905 4.83584 2.77842 5.36026 2.68748C5.88468 2.59654 6.42438 2.66972 6.90565 2.89703C6.45114 3.65273 6.26222 4.53865 6.36892 5.41402C6.47562 6.28939 6.87181 7.10399 7.49455 7.72838L8.0421 8.27593L7.03425 9.28383L8.16555 10.4151L9.1734 9.40728L14.7579 3.82293L15.7657 2.81508L14.6344 1.68373L13.6264 2.69158L13.0789 2.14403C12.4233 1.4903 11.5592 1.08731 10.637 1.0053C9.71481 0.923285 8.79309 1.16745 8.03245 1.69523C7.23036 1.18869 6.27983 0.97001 5.33702 1.07512C4.39422 1.18023 3.51519 1.60288 2.84435 2.27363L2.82435 2.29363C2.43497 2.68088 2.12627 3.14151 1.91611 3.64887C1.70595 4.15622 1.59851 4.70022 1.6 5.24938V14.2494H0V15.8494H1.6V17.3844C1.59997 17.5134 1.62077 17.6415 1.6616 17.7638L3.15 22.2288C3.22943 22.4679 3.38216 22.6758 3.5865 22.8231C3.79084 22.9704 4.0364 23.0496 4.2883 23.0494H4.9333L4.35 25.0494H6.01665L6.6 23.0494H17.005L17.605 25.0494H19.275L18.675 23.0494H19.7115C19.9634 23.0496 20.209 22.9705 20.4134 22.8232C20.6178 22.6759 20.7706 22.4679 20.85 22.2288L22.3383 17.7638C22.3791 17.6415 22.4 17.5134 22.4 17.3844V15.8494H24V14.2494H22.4ZM8.626 3.27538C9.0668 2.83554 9.66407 2.58852 10.2868 2.58852C10.9095 2.58852 11.5068 2.83554 11.9476 3.27538L12.495 3.82293L9.17355 7.14438L8.626 6.59693C8.18619 6.15612 7.93918 5.55885 7.93918 4.93616C7.93918 4.31346 8.18619 3.71619 8.626 3.27538ZM20.8 17.3194L19.4234 21.4494H4.5766L3.2 17.3194V15.8494H20.8V17.3194Z"
-                    fill="#2B2B2B"
-                  />
-                </svg>
-                <p>3 Bath</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="card-2" class="shrink-0 snap-center snap-always">
-          <div class="relative">
-            <img src="public/Rectangle 19.png" />
-            <div
-              class="absolute bottom-8 left-8 bg-[#D7EEFF] rounded-full flex items-center gap-2 px-6 py-2"
-            >
-              <svg
-                width="20"
+                width="30"
                 height="23"
-                viewBox="0 0 20 23"
+                viewBox="0 0 30 23"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M19.5387 9.54687L10.6731 1.39058C10.3849 1.12542 10.0054 0.981922 9.61384 0.990075C9.2223 0.998229 8.84906 1.1574 8.57214 1.43433L0.418438 9.58808L0 10.0065V22.0268H7.85714V14.5268H12.1429V22.0268H20V9.97133L19.5387 9.54687Z"
-                  fill="#119BFF"
+                  d="M25 5.48975H12V13.0284H10.6154V10.4659C10.6138 9.01407 10.0363 7.62213 9.00971 6.5955C7.9831 5.56887 6.59117 4.99138 5.13931 4.98975H2V0.989746H0V22.4897H2V19.5058L28 19.7138V22.4897H30V10.4897C29.9985 9.16413 29.4712 7.89323 28.5339 6.95587C27.5965 6.01852 26.3256 5.49125 25 5.48975ZM2 6.98975H5.13931C6.0609 6.99079 6.94445 7.35735 7.59611 8.00901C8.24777 8.66067 8.61433 9.54422 8.61537 10.4658V13.0283H2V6.98975ZM28 17.7137L2 17.5057V15.0284H28V17.7137ZM28 13.0284H14V7.48975H25C25.7954 7.49066 26.5579 7.80702 27.1203 8.36943C27.6827 8.93184 27.9991 9.69438 28 10.4897V13.0284Z"
+                  fill="#2B2B2B"
                 />
               </svg>
-
-              <p class="color-[#119BFF] text-base font-medium">New Listing</p>
+              <p>4 Beds</p>
             </div>
-          </div>
-          <div class="mt-8">
-            <p class="text-2xl font-semibold">$ 1,970</p>
-            <p class="font-medium text-lg mt-5">Serene Retreat by the Lake</p>
-            <p class="text-base font-normal mt-5">
-              1964 Jehovah Drive, VA 22408
-            </p>
-            <div class="flex items-center flex-row gap-5 mt-5">
-              <div class="flex items-center flex-row gap-2">
-                <svg
-                  width="30"
-                  height="23"
-                  viewBox="0 0 30 23"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M25 5.48975H12V13.0284H10.6154V10.4659C10.6138 9.01407 10.0363 7.62213 9.00971 6.5955C7.9831 5.56887 6.59117 4.99138 5.13931 4.98975H2V0.989746H0V22.4897H2V19.5058L28 19.7138V22.4897H30V10.4897C29.9985 9.16413 29.4712 7.89323 28.5339 6.95587C27.5965 6.01852 26.3256 5.49125 25 5.48975ZM2 6.98975H5.13931C6.0609 6.99079 6.94445 7.35735 7.59611 8.00901C8.24777 8.66067 8.61433 9.54422 8.61537 10.4658V13.0283H2V6.98975ZM28 17.7137L2 17.5057V15.0284H28V17.7137ZM28 13.0284H14V7.48975H25C25.7954 7.49066 26.5579 7.80702 27.1203 8.36943C27.6827 8.93184 27.9991 9.69438 28 10.4897V13.0284Z"
-                    fill="#2B2B2B"
-                  />
-                </svg>
-                <p>3 Beds</p>
-              </div>
-              <div class="flex items-center flex-row gap-2">
-                <svg
-                  width="24"
-                  height="25"
-                  viewBox="0 0 24 25"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M22.4 14.2494H3.2V5.24938C3.19907 4.91045 3.26538 4.5747 3.39509 4.26156C3.5248 3.94843 3.71533 3.66413 3.95565 3.42513L3.97565 3.40513C4.35228 3.02905 4.83584 2.77842 5.36026 2.68748C5.88468 2.59654 6.42438 2.66972 6.90565 2.89703C6.45114 3.65273 6.26222 4.53865 6.36892 5.41402C6.47562 6.28939 6.87181 7.10399 7.49455 7.72838L8.0421 8.27593L7.03425 9.28383L8.16555 10.4151L9.1734 9.40728L14.7579 3.82293L15.7657 2.81508L14.6344 1.68373L13.6264 2.69158L13.0789 2.14403C12.4233 1.4903 11.5592 1.08731 10.637 1.0053C9.71481 0.923285 8.79309 1.16745 8.03245 1.69523C7.23036 1.18869 6.27983 0.97001 5.33702 1.07512C4.39422 1.18023 3.51519 1.60288 2.84435 2.27363L2.82435 2.29363C2.43497 2.68088 2.12627 3.14151 1.91611 3.64887C1.70595 4.15622 1.59851 4.70022 1.6 5.24938V14.2494H0V15.8494H1.6V17.3844C1.59997 17.5134 1.62077 17.6415 1.6616 17.7638L3.15 22.2288C3.22943 22.4679 3.38216 22.6758 3.5865 22.8231C3.79084 22.9704 4.0364 23.0496 4.2883 23.0494H4.9333L4.35 25.0494H6.01665L6.6 23.0494H17.005L17.605 25.0494H19.275L18.675 23.0494H19.7115C19.9634 23.0496 20.209 22.9705 20.4134 22.8232C20.6178 22.6759 20.7706 22.4679 20.85 22.2288L22.3383 17.7638C22.3791 17.6415 22.4 17.5134 22.4 17.3844V15.8494H24V14.2494H22.4ZM8.626 3.27538C9.0668 2.83554 9.66407 2.58852 10.2868 2.58852C10.9095 2.58852 11.5068 2.83554 11.9476 3.27538L12.495 3.82293L9.17355 7.14438L8.626 6.59693C8.18619 6.15612 7.93918 5.55885 7.93918 4.93616C7.93918 4.31346 8.18619 3.71619 8.626 3.27538ZM20.8 17.3194L19.4234 21.4494H4.5766L3.2 17.3194V15.8494H20.8V17.3194Z"
-                    fill="#2B2B2B"
-                  />
-                </svg>
-                <p>2 Bath</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="card-3" class="shrink-0 snap-center snap-always">
-          <div class="relative">
-            <img src="public/Rectangle 20.png" />
-            <div
-              class="absolute bottom-8 left-8 bg-[#F1FFF1] rounded-full flex items-center gap-2 px-6 py-2"
-            >
+            <div class="flex items-center flex-row gap-2">
               <svg
-                width="14"
-                height="24"
-                viewBox="0 0 14 24"
+                width="24"
+                height="25"
+                viewBox="0 0 24 25"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M9.03064 10.8281H9.03008H4.96992C4.48037 10.8281 4.01087 10.6336 3.6647 10.2875C3.31854 9.94131 3.12406 9.4718 3.12406 8.98225C3.12406 8.4927 3.31854 8.0232 3.6647 7.67703C4.01087 7.33087 4.48037 7.13639 4.96992 7.13639H11.4662H11.9662V6.63639V5.01233V4.51233H11.4662H8.51504V1.98975V1.48975H8.01504H6.39098H5.89098V1.98975V4.51233H4.96992C3.78442 4.51233 2.64748 4.98327 1.80921 5.82154C0.970936 6.65981 0.5 7.79676 0.5 8.98225C0.5 10.1677 0.970937 11.3047 1.80921 12.143C2.64748 12.9812 3.78442 13.4522 4.96992 13.4522H9.02952C9.51905 13.4527 9.98838 13.6474 10.3345 13.9936C10.6807 14.3397 10.8754 14.8091 10.8759 15.2986V15.4779C10.8754 15.9675 10.6807 16.4368 10.3345 16.783C9.98838 17.1291 9.51905 17.3238 9.02952 17.3244H2.15791H1.65791V17.8244V19.4484V19.9484H2.15791H5.89098V22.2905V22.7905H6.39098H8.01504H8.51504V22.2905V19.9484H9.03008H9.03064C10.2156 19.9471 11.3516 19.4758 12.1895 18.6379C13.0274 17.8 13.4987 16.664 13.5 15.4791V15.4785V15.298V15.2975C13.4987 14.1125 13.0274 12.9765 12.1895 12.1386C11.3516 11.3007 10.2156 10.8294 9.03064 10.8281Z"
-                  fill="#00CE3A"
-                  stroke="#00CE3A"
+                  d="M22.4 14.2494H3.2V5.24938C3.19907 4.91045 3.26538 4.5747 3.39509 4.26156C3.5248 3.94843 3.71533 3.66413 3.95565 3.42513L3.97565 3.40513C4.35228 3.02905 4.83584 2.77842 5.36026 2.68748C5.88468 2.59654 6.42438 2.66972 6.90565 2.89703C6.45114 3.65273 6.26222 4.53865 6.36892 5.41402C6.47562 6.28939 6.87181 7.10399 7.49455 7.72838L8.0421 8.27593L7.03425 9.28383L8.16555 10.4151L9.1734 9.40728L14.7579 3.82293L15.7657 2.81508L14.6344 1.68373L13.6264 2.69158L13.0789 2.14403C12.4233 1.4903 11.5592 1.08731 10.637 1.0053C9.71481 0.923285 8.79309 1.16745 8.03245 1.69523C7.23036 1.18869 6.27983 0.97001 5.33702 1.07512C4.39422 1.18023 3.51519 1.60288 2.84435 2.27363L2.82435 2.29363C2.43497 2.68088 2.12627 3.14151 1.91611 3.64887C1.70595 4.15622 1.59851 4.70022 1.6 5.24938V14.2494H0V15.8494H1.6V17.3844C1.59997 17.5134 1.62077 17.6415 1.6616 17.7638L3.15 22.2288C3.22943 22.4679 3.38216 22.6758 3.5865 22.8231C3.79084 22.9704 4.0364 23.0496 4.2883 23.0494H4.9333L4.35 25.0494H6.01665L6.6 23.0494H17.005L17.605 25.0494H19.275L18.675 23.0494H19.7115C19.9634 23.0496 20.209 22.9705 20.4134 22.8232C20.6178 22.6759 20.7706 22.4679 20.85 22.2288L22.3383 17.7638C22.3791 17.6415 22.4 17.5134 22.4 17.3844V15.8494H24V14.2494H22.4ZM8.626 3.27538C9.0668 2.83554 9.66407 2.58852 10.2868 2.58852C10.9095 2.58852 11.5068 2.83554 11.9476 3.27538L12.495 3.82293L9.17355 7.14438L8.626 6.59693C8.18619 6.15612 7.93918 5.55885 7.93918 4.93616C7.93918 4.31346 8.18619 3.71619 8.626 3.27538ZM20.8 17.3194L19.4234 21.4494H4.5766L3.2 17.3194V15.8494H20.8V17.3194Z"
+                  fill="#2B2B2B"
                 />
               </svg>
-
-              <p class="color-[#00CE3A] text-base font-medium">
-                Discounted Price
-              </p>
-            </div>
-          </div>
-          <div class="mt-8">
-            <p class="text-2xl font-semibold">$ 3,450</p>
-            <p class="font-medium text-lg mt-5">
-              Charming Cottage in the Meadow
-            </p>
-            <p class="text-base font-normal mt-5">
-              1508 Centennial Farm RoadHarlan, 51537
-            </p>
-            <div class="flex items-center flex-row gap-5 mt-5">
-              <div class="flex items-center flex-row gap-2">
-                <svg
-                  width="30"
-                  height="23"
-                  viewBox="0 0 30 23"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M25 5.48975H12V13.0284H10.6154V10.4659C10.6138 9.01407 10.0363 7.62213 9.00971 6.5955C7.9831 5.56887 6.59117 4.99138 5.13931 4.98975H2V0.989746H0V22.4897H2V19.5058L28 19.7138V22.4897H30V10.4897C29.9985 9.16413 29.4712 7.89323 28.5339 6.95587C27.5965 6.01852 26.3256 5.49125 25 5.48975ZM2 6.98975H5.13931C6.0609 6.99079 6.94445 7.35735 7.59611 8.00901C8.24777 8.66067 8.61433 9.54422 8.61537 10.4658V13.0283H2V6.98975ZM28 17.7137L2 17.5057V15.0284H28V17.7137ZM28 13.0284H14V7.48975H25C25.7954 7.49066 26.5579 7.80702 27.1203 8.36943C27.6827 8.93184 27.9991 9.69438 28 10.4897V13.0284Z"
-                    fill="#2B2B2B"
-                  />
-                </svg>
-                <p>4 Beds</p>
-              </div>
-              <div class="flex items-center flex-row gap-2">
-                <svg
-                  width="24"
-                  height="25"
-                  viewBox="0 0 24 25"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M22.4 14.2494H3.2V5.24938C3.19907 4.91045 3.26538 4.5747 3.39509 4.26156C3.5248 3.94843 3.71533 3.66413 3.95565 3.42513L3.97565 3.40513C4.35228 3.02905 4.83584 2.77842 5.36026 2.68748C5.88468 2.59654 6.42438 2.66972 6.90565 2.89703C6.45114 3.65273 6.26222 4.53865 6.36892 5.41402C6.47562 6.28939 6.87181 7.10399 7.49455 7.72838L8.0421 8.27593L7.03425 9.28383L8.16555 10.4151L9.1734 9.40728L14.7579 3.82293L15.7657 2.81508L14.6344 1.68373L13.6264 2.69158L13.0789 2.14403C12.4233 1.4903 11.5592 1.08731 10.637 1.0053C9.71481 0.923285 8.79309 1.16745 8.03245 1.69523C7.23036 1.18869 6.27983 0.97001 5.33702 1.07512C4.39422 1.18023 3.51519 1.60288 2.84435 2.27363L2.82435 2.29363C2.43497 2.68088 2.12627 3.14151 1.91611 3.64887C1.70595 4.15622 1.59851 4.70022 1.6 5.24938V14.2494H0V15.8494H1.6V17.3844C1.59997 17.5134 1.62077 17.6415 1.6616 17.7638L3.15 22.2288C3.22943 22.4679 3.38216 22.6758 3.5865 22.8231C3.79084 22.9704 4.0364 23.0496 4.2883 23.0494H4.9333L4.35 25.0494H6.01665L6.6 23.0494H17.005L17.605 25.0494H19.275L18.675 23.0494H19.7115C19.9634 23.0496 20.209 22.9705 20.4134 22.8232C20.6178 22.6759 20.7706 22.4679 20.85 22.2288L22.3383 17.7638C22.3791 17.6415 22.4 17.5134 22.4 17.3844V15.8494H24V14.2494H22.4ZM8.626 3.27538C9.0668 2.83554 9.66407 2.58852 10.2868 2.58852C10.9095 2.58852 11.5068 2.83554 11.9476 3.27538L12.495 3.82293L9.17355 7.14438L8.626 6.59693C8.18619 6.15612 7.93918 5.55885 7.93918 4.93616C7.93918 4.31346 8.18619 3.71619 8.626 3.27538ZM20.8 17.3194L19.4234 21.4494H4.5766L3.2 17.3194V15.8494H20.8V17.3194Z"
-                    fill="#2B2B2B"
-                  />
-                </svg>
-                <p>4 Bath</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="card-4" class="shrink-0 snap-center snap-always">
-          <div class="relative">
-            <img
-              class="w-xs h-xs"
-              src="public/ee559e82e9cffdd11e1005362ee567b1.png"
-            />
-            <div
-              class="absolute bottom-8 left-8 bg-[#FFE1E1] rounded-full flex items-center gap-2 px-6 py-2"
-            >
-              <svg
-                width="20"
-                height="24"
-                viewBox="0 0 20 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M12.4076 12.2426C12.6672 11.8162 12.9355 11.3754 13.2006 10.9209C14.0877 9.40019 14.2505 7.86789 13.6846 6.36651C12.5427 3.33721 8.72575 1.4915 7.84209 1.19701L7.22073 0.989746L6.25093 2.92972L6.71893 3.31206C6.72417 3.31626 7.244 3.77048 7.27865 4.45905C7.30824 5.04685 6.986 5.68204 6.32112 6.34711C5.8594 6.80878 5.35264 7.25522 4.8161 7.7278C2.55865 9.71583 0 11.9697 0 16.2336C0 16.2922 0.000550676 16.3504 0.00165204 16.4083C0.0180119 17.3492 0.2201 18.2776 0.596308 19.1402C0.972516 20.0028 1.51543 20.7826 2.19387 21.4348C3.55621 22.7598 5.38285 23.4994 7.28332 23.4954H11.6306L11.0939 22.4064C8.91356 17.9812 10.4555 15.4487 12.4076 12.2426Z"
-                  fill="#FF1111"
-                />
-                <path
-                  d="M19.8229 16.1852C19.8103 16.1353 19.7972 16.0852 19.7835 16.0349C19.2385 14.0368 16.2218 11.4676 15.8797 11.1812L15.1925 10.6062L14.742 11.3807C13.7152 13.146 12.834 14.7561 12.4499 16.5828C12.0119 18.666 12.3067 20.7833 13.3515 23.0556L13.5535 23.4953H14.067C14.9713 23.498 15.8642 23.2929 16.6769 22.896C17.4895 22.4991 18.2001 21.9209 18.7541 21.2061C19.3046 20.5068 19.6873 19.6905 19.8726 18.82C20.0579 17.9495 20.0409 17.0481 19.8229 16.1852Z"
-                  fill="#FF1111"
-                />
-              </svg>
-              <p class="color-[#FF1111] text-base font-medium">Popular</p>
-            </div>
-          </div>
-          <div class="mt-8">
-            <p class="text-2xl font-semibold">$ 2,389</p>
-            <p class="font-medium text-lg mt-5">Grand Estate on the Hilltop</p>
-            <p class="text-base font-normal mt-5">
-              103 Wright CourtBurien, WA 98168
-            </p>
-            <div class="flex items-center flex-row gap-5 mt-5">
-              <div class="flex items-center flex-row gap-2">
-                <svg
-                  width="30"
-                  height="23"
-                  viewBox="0 0 30 23"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M25 5.48975H12V13.0284H10.6154V10.4659C10.6138 9.01407 10.0363 7.62213 9.00971 6.5955C7.9831 5.56887 6.59117 4.99138 5.13931 4.98975H2V0.989746H0V22.4897H2V19.5058L28 19.7138V22.4897H30V10.4897C29.9985 9.16413 29.4712 7.89323 28.5339 6.95587C27.5965 6.01852 26.3256 5.49125 25 5.48975ZM2 6.98975H5.13931C6.0609 6.99079 6.94445 7.35735 7.59611 8.00901C8.24777 8.66067 8.61433 9.54422 8.61537 10.4658V13.0283H2V6.98975ZM28 17.7137L2 17.5057V15.0284H28V17.7137ZM28 13.0284H14V7.48975H25C25.7954 7.49066 26.5579 7.80702 27.1203 8.36943C27.6827 8.93184 27.9991 9.69438 28 10.4897V13.0284Z"
-                    fill="#2B2B2B"
-                  />
-                </svg>
-                <p>4 Beds</p>
-              </div>
-              <div class="flex items-center flex-row gap-2">
-                <svg
-                  width="24"
-                  height="25"
-                  viewBox="0 0 24 25"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M22.4 14.2494H3.2V5.24938C3.19907 4.91045 3.26538 4.5747 3.39509 4.26156C3.5248 3.94843 3.71533 3.66413 3.95565 3.42513L3.97565 3.40513C4.35228 3.02905 4.83584 2.77842 5.36026 2.68748C5.88468 2.59654 6.42438 2.66972 6.90565 2.89703C6.45114 3.65273 6.26222 4.53865 6.36892 5.41402C6.47562 6.28939 6.87181 7.10399 7.49455 7.72838L8.0421 8.27593L7.03425 9.28383L8.16555 10.4151L9.1734 9.40728L14.7579 3.82293L15.7657 2.81508L14.6344 1.68373L13.6264 2.69158L13.0789 2.14403C12.4233 1.4903 11.5592 1.08731 10.637 1.0053C9.71481 0.923285 8.79309 1.16745 8.03245 1.69523C7.23036 1.18869 6.27983 0.97001 5.33702 1.07512C4.39422 1.18023 3.51519 1.60288 2.84435 2.27363L2.82435 2.29363C2.43497 2.68088 2.12627 3.14151 1.91611 3.64887C1.70595 4.15622 1.59851 4.70022 1.6 5.24938V14.2494H0V15.8494H1.6V17.3844C1.59997 17.5134 1.62077 17.6415 1.6616 17.7638L3.15 22.2288C3.22943 22.4679 3.38216 22.6758 3.5865 22.8231C3.79084 22.9704 4.0364 23.0496 4.2883 23.0494H4.9333L4.35 25.0494H6.01665L6.6 23.0494H17.005L17.605 25.0494H19.275L18.675 23.0494H19.7115C19.9634 23.0496 20.209 22.9705 20.4134 22.8232C20.6178 22.6759 20.7706 22.4679 20.85 22.2288L22.3383 17.7638C22.3791 17.6415 22.4 17.5134 22.4 17.3844V15.8494H24V14.2494H22.4ZM8.626 3.27538C9.0668 2.83554 9.66407 2.58852 10.2868 2.58852C10.9095 2.58852 11.5068 2.83554 11.9476 3.27538L12.495 3.82293L9.17355 7.14438L8.626 6.59693C8.18619 6.15612 7.93918 5.55885 7.93918 4.93616C7.93918 4.31346 8.18619 3.71619 8.626 3.27538ZM20.8 17.3194L19.4234 21.4494H4.5766L3.2 17.3194V15.8494H20.8V17.3194Z"
-                    fill="#2B2B2B"
-                  />
-                </svg>
-                <p>3 Bath</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="card-4" class="shrink-0 snap-center snap-always">
-          <div class="relative">
-            <img
-              class="w-xs h-xs"
-              src="public/ee559e82e9cffdd11e1005362ee567b1.png"
-            />
-            <div
-              class="absolute bottom-8 left-8 bg-[#FFE1E1] rounded-full flex items-center gap-2 px-6 py-2"
-            >
-              <svg
-                width="20"
-                height="24"
-                viewBox="0 0 20 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M12.4076 12.2426C12.6672 11.8162 12.9355 11.3754 13.2006 10.9209C14.0877 9.40019 14.2505 7.86789 13.6846 6.36651C12.5427 3.33721 8.72575 1.4915 7.84209 1.19701L7.22073 0.989746L6.25093 2.92972L6.71893 3.31206C6.72417 3.31626 7.244 3.77048 7.27865 4.45905C7.30824 5.04685 6.986 5.68204 6.32112 6.34711C5.8594 6.80878 5.35264 7.25522 4.8161 7.7278C2.55865 9.71583 0 11.9697 0 16.2336C0 16.2922 0.000550676 16.3504 0.00165204 16.4083C0.0180119 17.3492 0.2201 18.2776 0.596308 19.1402C0.972516 20.0028 1.51543 20.7826 2.19387 21.4348C3.55621 22.7598 5.38285 23.4994 7.28332 23.4954H11.6306L11.0939 22.4064C8.91356 17.9812 10.4555 15.4487 12.4076 12.2426Z"
-                  fill="#FF1111"
-                />
-                <path
-                  d="M19.8229 16.1852C19.8103 16.1353 19.7972 16.0852 19.7835 16.0349C19.2385 14.0368 16.2218 11.4676 15.8797 11.1812L15.1925 10.6062L14.742 11.3807C13.7152 13.146 12.834 14.7561 12.4499 16.5828C12.0119 18.666 12.3067 20.7833 13.3515 23.0556L13.5535 23.4953H14.067C14.9713 23.498 15.8642 23.2929 16.6769 22.896C17.4895 22.4991 18.2001 21.9209 18.7541 21.2061C19.3046 20.5068 19.6873 19.6905 19.8726 18.82C20.0579 17.9495 20.0409 17.0481 19.8229 16.1852Z"
-                  fill="#FF1111"
-                />
-              </svg>
-              <p class="color-[#FF1111] text-base font-medium">Popular</p>
-            </div>
-          </div>
-          <div class="mt-8">
-            <p class="text-2xl font-semibold">$ 2,389</p>
-            <p class="font-medium text-lg mt-5">Grand Estate on the Hilltop</p>
-            <p class="text-base font-normal mt-5">
-              103 Wright CourtBurien, WA 98168
-            </p>
-            <div class="flex items-center flex-row gap-5 mt-5">
-              <div class="flex items-center flex-row gap-2">
-                <svg
-                  width="30"
-                  height="23"
-                  viewBox="0 0 30 23"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M25 5.48975H12V13.0284H10.6154V10.4659C10.6138 9.01407 10.0363 7.62213 9.00971 6.5955C7.9831 5.56887 6.59117 4.99138 5.13931 4.98975H2V0.989746H0V22.4897H2V19.5058L28 19.7138V22.4897H30V10.4897C29.9985 9.16413 29.4712 7.89323 28.5339 6.95587C27.5965 6.01852 26.3256 5.49125 25 5.48975ZM2 6.98975H5.13931C6.0609 6.99079 6.94445 7.35735 7.59611 8.00901C8.24777 8.66067 8.61433 9.54422 8.61537 10.4658V13.0283H2V6.98975ZM28 17.7137L2 17.5057V15.0284H28V17.7137ZM28 13.0284H14V7.48975H25C25.7954 7.49066 26.5579 7.80702 27.1203 8.36943C27.6827 8.93184 27.9991 9.69438 28 10.4897V13.0284Z"
-                    fill="#2B2B2B"
-                  />
-                </svg>
-                <p>4 Beds</p>
-              </div>
-              <div class="flex items-center flex-row gap-2">
-                <svg
-                  width="24"
-                  height="25"
-                  viewBox="0 0 24 25"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M22.4 14.2494H3.2V5.24938C3.19907 4.91045 3.26538 4.5747 3.39509 4.26156C3.5248 3.94843 3.71533 3.66413 3.95565 3.42513L3.97565 3.40513C4.35228 3.02905 4.83584 2.77842 5.36026 2.68748C5.88468 2.59654 6.42438 2.66972 6.90565 2.89703C6.45114 3.65273 6.26222 4.53865 6.36892 5.41402C6.47562 6.28939 6.87181 7.10399 7.49455 7.72838L8.0421 8.27593L7.03425 9.28383L8.16555 10.4151L9.1734 9.40728L14.7579 3.82293L15.7657 2.81508L14.6344 1.68373L13.6264 2.69158L13.0789 2.14403C12.4233 1.4903 11.5592 1.08731 10.637 1.0053C9.71481 0.923285 8.79309 1.16745 8.03245 1.69523C7.23036 1.18869 6.27983 0.97001 5.33702 1.07512C4.39422 1.18023 3.51519 1.60288 2.84435 2.27363L2.82435 2.29363C2.43497 2.68088 2.12627 3.14151 1.91611 3.64887C1.70595 4.15622 1.59851 4.70022 1.6 5.24938V14.2494H0V15.8494H1.6V17.3844C1.59997 17.5134 1.62077 17.6415 1.6616 17.7638L3.15 22.2288C3.22943 22.4679 3.38216 22.6758 3.5865 22.8231C3.79084 22.9704 4.0364 23.0496 4.2883 23.0494H4.9333L4.35 25.0494H6.01665L6.6 23.0494H17.005L17.605 25.0494H19.275L18.675 23.0494H19.7115C19.9634 23.0496 20.209 22.9705 20.4134 22.8232C20.6178 22.6759 20.7706 22.4679 20.85 22.2288L22.3383 17.7638C22.3791 17.6415 22.4 17.5134 22.4 17.3844V15.8494H24V14.2494H22.4ZM8.626 3.27538C9.0668 2.83554 9.66407 2.58852 10.2868 2.58852C10.9095 2.58852 11.5068 2.83554 11.9476 3.27538L12.495 3.82293L9.17355 7.14438L8.626 6.59693C8.18619 6.15612 7.93918 5.55885 7.93918 4.93616C7.93918 4.31346 8.18619 3.71619 8.626 3.27538ZM20.8 17.3194L19.4234 21.4494H4.5766L3.2 17.3194V15.8494H20.8V17.3194Z"
-                    fill="#2B2B2B"
-                  />
-                </svg>
-                <p>3 Bath</p>
-              </div>
+              <p>3 Bath</p>
             </div>
           </div>
         </div>
       </div>
+      <div class="shrink-0 snap-center snap-always">
+        <div class="relative">
+          <img src="public/Rectangle 19.png" />
+          <div
+            class="absolute bottom-8 left-8 bg-[#D7EEFF] rounded-full flex items-center gap-2 px-6 py-2"
+          >
+            <svg
+              width="20"
+              height="23"
+              viewBox="0 0 20 23"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19.5387 9.54687L10.6731 1.39058C10.3849 1.12542 10.0054 0.981922 9.61384 0.990075C9.2223 0.998229 8.84906 1.1574 8.57214 1.43433L0.418438 9.58808L0 10.0065V22.0268H7.85714V14.5268H12.1429V22.0268H20V9.97133L19.5387 9.54687Z"
+                fill="#119BFF"
+              />
+            </svg>
+
+            <p class="color-[#119BFF] text-base font-medium">New Listing</p>
+          </div>
+        </div>
+        <div class="mt-4 md:mt-8">
+          <p class="text-2xl font-semibold">$ 1,970</p>
+          <p class="font-medium text-lg mt-5">Serene Retreat by the Lake</p>
+          <p class="text-base font-normal mt-5">1964 Jehovah Drive, VA 22408</p>
+          <div class="flex items-center flex-row gap-5 mt-5">
+            <div class="flex items-center flex-row gap-2">
+              <svg
+                width="30"
+                height="23"
+                viewBox="0 0 30 23"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 5.48975H12V13.0284H10.6154V10.4659C10.6138 9.01407 10.0363 7.62213 9.00971 6.5955C7.9831 5.56887 6.59117 4.99138 5.13931 4.98975H2V0.989746H0V22.4897H2V19.5058L28 19.7138V22.4897H30V10.4897C29.9985 9.16413 29.4712 7.89323 28.5339 6.95587C27.5965 6.01852 26.3256 5.49125 25 5.48975ZM2 6.98975H5.13931C6.0609 6.99079 6.94445 7.35735 7.59611 8.00901C8.24777 8.66067 8.61433 9.54422 8.61537 10.4658V13.0283H2V6.98975ZM28 17.7137L2 17.5057V15.0284H28V17.7137ZM28 13.0284H14V7.48975H25C25.7954 7.49066 26.5579 7.80702 27.1203 8.36943C27.6827 8.93184 27.9991 9.69438 28 10.4897V13.0284Z"
+                  fill="#2B2B2B"
+                />
+              </svg>
+              <p>3 Beds</p>
+            </div>
+            <div class="flex items-center flex-row gap-2">
+              <svg
+                width="24"
+                height="25"
+                viewBox="0 0 24 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.4 14.2494H3.2V5.24938C3.19907 4.91045 3.26538 4.5747 3.39509 4.26156C3.5248 3.94843 3.71533 3.66413 3.95565 3.42513L3.97565 3.40513C4.35228 3.02905 4.83584 2.77842 5.36026 2.68748C5.88468 2.59654 6.42438 2.66972 6.90565 2.89703C6.45114 3.65273 6.26222 4.53865 6.36892 5.41402C6.47562 6.28939 6.87181 7.10399 7.49455 7.72838L8.0421 8.27593L7.03425 9.28383L8.16555 10.4151L9.1734 9.40728L14.7579 3.82293L15.7657 2.81508L14.6344 1.68373L13.6264 2.69158L13.0789 2.14403C12.4233 1.4903 11.5592 1.08731 10.637 1.0053C9.71481 0.923285 8.79309 1.16745 8.03245 1.69523C7.23036 1.18869 6.27983 0.97001 5.33702 1.07512C4.39422 1.18023 3.51519 1.60288 2.84435 2.27363L2.82435 2.29363C2.43497 2.68088 2.12627 3.14151 1.91611 3.64887C1.70595 4.15622 1.59851 4.70022 1.6 5.24938V14.2494H0V15.8494H1.6V17.3844C1.59997 17.5134 1.62077 17.6415 1.6616 17.7638L3.15 22.2288C3.22943 22.4679 3.38216 22.6758 3.5865 22.8231C3.79084 22.9704 4.0364 23.0496 4.2883 23.0494H4.9333L4.35 25.0494H6.01665L6.6 23.0494H17.005L17.605 25.0494H19.275L18.675 23.0494H19.7115C19.9634 23.0496 20.209 22.9705 20.4134 22.8232C20.6178 22.6759 20.7706 22.4679 20.85 22.2288L22.3383 17.7638C22.3791 17.6415 22.4 17.5134 22.4 17.3844V15.8494H24V14.2494H22.4ZM8.626 3.27538C9.0668 2.83554 9.66407 2.58852 10.2868 2.58852C10.9095 2.58852 11.5068 2.83554 11.9476 3.27538L12.495 3.82293L9.17355 7.14438L8.626 6.59693C8.18619 6.15612 7.93918 5.55885 7.93918 4.93616C7.93918 4.31346 8.18619 3.71619 8.626 3.27538ZM20.8 17.3194L19.4234 21.4494H4.5766L3.2 17.3194V15.8494H20.8V17.3194Z"
+                  fill="#2B2B2B"
+                />
+              </svg>
+              <p>2 Bath</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shrink-0 snap-center snap-always">
+        <div class="relative">
+          <img src="public/Rectangle 20.png" />
+          <div
+            class="absolute bottom-8 left-8 bg-[#F1FFF1] rounded-full flex items-center gap-2 px-6 py-2"
+          >
+            <svg
+              width="14"
+              height="24"
+              viewBox="0 0 14 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.03064 10.8281H9.03008H4.96992C4.48037 10.8281 4.01087 10.6336 3.6647 10.2875C3.31854 9.94131 3.12406 9.4718 3.12406 8.98225C3.12406 8.4927 3.31854 8.0232 3.6647 7.67703C4.01087 7.33087 4.48037 7.13639 4.96992 7.13639H11.4662H11.9662V6.63639V5.01233V4.51233H11.4662H8.51504V1.98975V1.48975H8.01504H6.39098H5.89098V1.98975V4.51233H4.96992C3.78442 4.51233 2.64748 4.98327 1.80921 5.82154C0.970936 6.65981 0.5 7.79676 0.5 8.98225C0.5 10.1677 0.970937 11.3047 1.80921 12.143C2.64748 12.9812 3.78442 13.4522 4.96992 13.4522H9.02952C9.51905 13.4527 9.98838 13.6474 10.3345 13.9936C10.6807 14.3397 10.8754 14.8091 10.8759 15.2986V15.4779C10.8754 15.9675 10.6807 16.4368 10.3345 16.783C9.98838 17.1291 9.51905 17.3238 9.02952 17.3244H2.15791H1.65791V17.8244V19.4484V19.9484H2.15791H5.89098V22.2905V22.7905H6.39098H8.01504H8.51504V22.2905V19.9484H9.03008H9.03064C10.2156 19.9471 11.3516 19.4758 12.1895 18.6379C13.0274 17.8 13.4987 16.664 13.5 15.4791V15.4785V15.298V15.2975C13.4987 14.1125 13.0274 12.9765 12.1895 12.1386C11.3516 11.3007 10.2156 10.8294 9.03064 10.8281Z"
+                fill="#00CE3A"
+                stroke="#00CE3A"
+              />
+            </svg>
+
+            <p class="color-[#00CE3A] text-base font-medium">
+              Discounted Price
+            </p>
+          </div>
+        </div>
+        <div class="mt-4 md:mt-8">
+          <p class="text-2xl font-semibold">$ 3,450</p>
+          <p class="font-medium text-lg mt-5">Charming Cottage in the Meadow</p>
+          <p class="text-base font-normal mt-5">
+            1508 Centennial Farm RoadHarlan, 51537
+          </p>
+          <div class="flex items-center flex-row gap-5 mt-5">
+            <div class="flex items-center flex-row gap-2">
+              <svg
+                width="30"
+                height="23"
+                viewBox="0 0 30 23"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 5.48975H12V13.0284H10.6154V10.4659C10.6138 9.01407 10.0363 7.62213 9.00971 6.5955C7.9831 5.56887 6.59117 4.99138 5.13931 4.98975H2V0.989746H0V22.4897H2V19.5058L28 19.7138V22.4897H30V10.4897C29.9985 9.16413 29.4712 7.89323 28.5339 6.95587C27.5965 6.01852 26.3256 5.49125 25 5.48975ZM2 6.98975H5.13931C6.0609 6.99079 6.94445 7.35735 7.59611 8.00901C8.24777 8.66067 8.61433 9.54422 8.61537 10.4658V13.0283H2V6.98975ZM28 17.7137L2 17.5057V15.0284H28V17.7137ZM28 13.0284H14V7.48975H25C25.7954 7.49066 26.5579 7.80702 27.1203 8.36943C27.6827 8.93184 27.9991 9.69438 28 10.4897V13.0284Z"
+                  fill="#2B2B2B"
+                />
+              </svg>
+              <p>4 Beds</p>
+            </div>
+            <div class="flex items-center flex-row gap-2">
+              <svg
+                width="24"
+                height="25"
+                viewBox="0 0 24 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.4 14.2494H3.2V5.24938C3.19907 4.91045 3.26538 4.5747 3.39509 4.26156C3.5248 3.94843 3.71533 3.66413 3.95565 3.42513L3.97565 3.40513C4.35228 3.02905 4.83584 2.77842 5.36026 2.68748C5.88468 2.59654 6.42438 2.66972 6.90565 2.89703C6.45114 3.65273 6.26222 4.53865 6.36892 5.41402C6.47562 6.28939 6.87181 7.10399 7.49455 7.72838L8.0421 8.27593L7.03425 9.28383L8.16555 10.4151L9.1734 9.40728L14.7579 3.82293L15.7657 2.81508L14.6344 1.68373L13.6264 2.69158L13.0789 2.14403C12.4233 1.4903 11.5592 1.08731 10.637 1.0053C9.71481 0.923285 8.79309 1.16745 8.03245 1.69523C7.23036 1.18869 6.27983 0.97001 5.33702 1.07512C4.39422 1.18023 3.51519 1.60288 2.84435 2.27363L2.82435 2.29363C2.43497 2.68088 2.12627 3.14151 1.91611 3.64887C1.70595 4.15622 1.59851 4.70022 1.6 5.24938V14.2494H0V15.8494H1.6V17.3844C1.59997 17.5134 1.62077 17.6415 1.6616 17.7638L3.15 22.2288C3.22943 22.4679 3.38216 22.6758 3.5865 22.8231C3.79084 22.9704 4.0364 23.0496 4.2883 23.0494H4.9333L4.35 25.0494H6.01665L6.6 23.0494H17.005L17.605 25.0494H19.275L18.675 23.0494H19.7115C19.9634 23.0496 20.209 22.9705 20.4134 22.8232C20.6178 22.6759 20.7706 22.4679 20.85 22.2288L22.3383 17.7638C22.3791 17.6415 22.4 17.5134 22.4 17.3844V15.8494H24V14.2494H22.4ZM8.626 3.27538C9.0668 2.83554 9.66407 2.58852 10.2868 2.58852C10.9095 2.58852 11.5068 2.83554 11.9476 3.27538L12.495 3.82293L9.17355 7.14438L8.626 6.59693C8.18619 6.15612 7.93918 5.55885 7.93918 4.93616C7.93918 4.31346 8.18619 3.71619 8.626 3.27538ZM20.8 17.3194L19.4234 21.4494H4.5766L3.2 17.3194V15.8494H20.8V17.3194Z"
+                  fill="#2B2B2B"
+                />
+              </svg>
+              <p>4 Bath</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shrink-0 snap-center snap-always">
+        <div class="relative">
+          <img
+            class="w-xs h-xs"
+            src="public/ee559e82e9cffdd11e1005362ee567b1.png"
+          />
+          <div
+            class="absolute bottom-8 left-8 bg-[#FFE1E1] rounded-full flex items-center gap-2 px-6 py-2"
+          >
+            <svg
+              width="20"
+              height="24"
+              viewBox="0 0 20 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.4076 12.2426C12.6672 11.8162 12.9355 11.3754 13.2006 10.9209C14.0877 9.40019 14.2505 7.86789 13.6846 6.36651C12.5427 3.33721 8.72575 1.4915 7.84209 1.19701L7.22073 0.989746L6.25093 2.92972L6.71893 3.31206C6.72417 3.31626 7.244 3.77048 7.27865 4.45905C7.30824 5.04685 6.986 5.68204 6.32112 6.34711C5.8594 6.80878 5.35264 7.25522 4.8161 7.7278C2.55865 9.71583 0 11.9697 0 16.2336C0 16.2922 0.000550676 16.3504 0.00165204 16.4083C0.0180119 17.3492 0.2201 18.2776 0.596308 19.1402C0.972516 20.0028 1.51543 20.7826 2.19387 21.4348C3.55621 22.7598 5.38285 23.4994 7.28332 23.4954H11.6306L11.0939 22.4064C8.91356 17.9812 10.4555 15.4487 12.4076 12.2426Z"
+                fill="#FF1111"
+              />
+              <path
+                d="M19.8229 16.1852C19.8103 16.1353 19.7972 16.0852 19.7835 16.0349C19.2385 14.0368 16.2218 11.4676 15.8797 11.1812L15.1925 10.6062L14.742 11.3807C13.7152 13.146 12.834 14.7561 12.4499 16.5828C12.0119 18.666 12.3067 20.7833 13.3515 23.0556L13.5535 23.4953H14.067C14.9713 23.498 15.8642 23.2929 16.6769 22.896C17.4895 22.4991 18.2001 21.9209 18.7541 21.2061C19.3046 20.5068 19.6873 19.6905 19.8726 18.82C20.0579 17.9495 20.0409 17.0481 19.8229 16.1852Z"
+                fill="#FF1111"
+              />
+            </svg>
+            <p class="color-[#FF1111] text-base font-medium">Popular</p>
+          </div>
+        </div>
+        <div class="mt-4 md:mt-8">
+          <p class="text-2xl font-semibold">$ 2,389</p>
+          <p class="font-medium text-lg mt-5">Grand Estate on the Hilltop</p>
+          <p class="text-base font-normal mt-5">
+            103 Wright CourtBurien, WA 98168
+          </p>
+          <div class="flex items-center flex-row gap-5 mt-5">
+            <div class="flex items-center flex-row gap-2">
+              <svg
+                width="30"
+                height="23"
+                viewBox="0 0 30 23"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 5.48975H12V13.0284H10.6154V10.4659C10.6138 9.01407 10.0363 7.62213 9.00971 6.5955C7.9831 5.56887 6.59117 4.99138 5.13931 4.98975H2V0.989746H0V22.4897H2V19.5058L28 19.7138V22.4897H30V10.4897C29.9985 9.16413 29.4712 7.89323 28.5339 6.95587C27.5965 6.01852 26.3256 5.49125 25 5.48975ZM2 6.98975H5.13931C6.0609 6.99079 6.94445 7.35735 7.59611 8.00901C8.24777 8.66067 8.61433 9.54422 8.61537 10.4658V13.0283H2V6.98975ZM28 17.7137L2 17.5057V15.0284H28V17.7137ZM28 13.0284H14V7.48975H25C25.7954 7.49066 26.5579 7.80702 27.1203 8.36943C27.6827 8.93184 27.9991 9.69438 28 10.4897V13.0284Z"
+                  fill="#2B2B2B"
+                />
+              </svg>
+              <p>4 Beds</p>
+            </div>
+            <div class="flex items-center flex-row gap-2">
+              <svg
+                width="24"
+                height="25"
+                viewBox="0 0 24 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.4 14.2494H3.2V5.24938C3.19907 4.91045 3.26538 4.5747 3.39509 4.26156C3.5248 3.94843 3.71533 3.66413 3.95565 3.42513L3.97565 3.40513C4.35228 3.02905 4.83584 2.77842 5.36026 2.68748C5.88468 2.59654 6.42438 2.66972 6.90565 2.89703C6.45114 3.65273 6.26222 4.53865 6.36892 5.41402C6.47562 6.28939 6.87181 7.10399 7.49455 7.72838L8.0421 8.27593L7.03425 9.28383L8.16555 10.4151L9.1734 9.40728L14.7579 3.82293L15.7657 2.81508L14.6344 1.68373L13.6264 2.69158L13.0789 2.14403C12.4233 1.4903 11.5592 1.08731 10.637 1.0053C9.71481 0.923285 8.79309 1.16745 8.03245 1.69523C7.23036 1.18869 6.27983 0.97001 5.33702 1.07512C4.39422 1.18023 3.51519 1.60288 2.84435 2.27363L2.82435 2.29363C2.43497 2.68088 2.12627 3.14151 1.91611 3.64887C1.70595 4.15622 1.59851 4.70022 1.6 5.24938V14.2494H0V15.8494H1.6V17.3844C1.59997 17.5134 1.62077 17.6415 1.6616 17.7638L3.15 22.2288C3.22943 22.4679 3.38216 22.6758 3.5865 22.8231C3.79084 22.9704 4.0364 23.0496 4.2883 23.0494H4.9333L4.35 25.0494H6.01665L6.6 23.0494H17.005L17.605 25.0494H19.275L18.675 23.0494H19.7115C19.9634 23.0496 20.209 22.9705 20.4134 22.8232C20.6178 22.6759 20.7706 22.4679 20.85 22.2288L22.3383 17.7638C22.3791 17.6415 22.4 17.5134 22.4 17.3844V15.8494H24V14.2494H22.4ZM8.626 3.27538C9.0668 2.83554 9.66407 2.58852 10.2868 2.58852C10.9095 2.58852 11.5068 2.83554 11.9476 3.27538L12.495 3.82293L9.17355 7.14438L8.626 6.59693C8.18619 6.15612 7.93918 5.55885 7.93918 4.93616C7.93918 4.31346 8.18619 3.71619 8.626 3.27538ZM20.8 17.3194L19.4234 21.4494H4.5766L3.2 17.3194V15.8494H20.8V17.3194Z"
+                  fill="#2B2B2B"
+                />
+              </svg>
+              <p>3 Bath</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shrink-0 snap-center snap-always">
+        <div class="relative">
+          <img
+            class="w-xs h-xs"
+            src="public/ee559e82e9cffdd11e1005362ee567b1.png"
+          />
+          <div
+            class="absolute bottom-8 left-8 bg-[#FFE1E1] rounded-full flex items-center gap-2 px-6 py-2"
+          >
+            <svg
+              width="20"
+              height="24"
+              viewBox="0 0 20 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.4076 12.2426C12.6672 11.8162 12.9355 11.3754 13.2006 10.9209C14.0877 9.40019 14.2505 7.86789 13.6846 6.36651C12.5427 3.33721 8.72575 1.4915 7.84209 1.19701L7.22073 0.989746L6.25093 2.92972L6.71893 3.31206C6.72417 3.31626 7.244 3.77048 7.27865 4.45905C7.30824 5.04685 6.986 5.68204 6.32112 6.34711C5.8594 6.80878 5.35264 7.25522 4.8161 7.7278C2.55865 9.71583 0 11.9697 0 16.2336C0 16.2922 0.000550676 16.3504 0.00165204 16.4083C0.0180119 17.3492 0.2201 18.2776 0.596308 19.1402C0.972516 20.0028 1.51543 20.7826 2.19387 21.4348C3.55621 22.7598 5.38285 23.4994 7.28332 23.4954H11.6306L11.0939 22.4064C8.91356 17.9812 10.4555 15.4487 12.4076 12.2426Z"
+                fill="#FF1111"
+              />
+              <path
+                d="M19.8229 16.1852C19.8103 16.1353 19.7972 16.0852 19.7835 16.0349C19.2385 14.0368 16.2218 11.4676 15.8797 11.1812L15.1925 10.6062L14.742 11.3807C13.7152 13.146 12.834 14.7561 12.4499 16.5828C12.0119 18.666 12.3067 20.7833 13.3515 23.0556L13.5535 23.4953H14.067C14.9713 23.498 15.8642 23.2929 16.6769 22.896C17.4895 22.4991 18.2001 21.9209 18.7541 21.2061C19.3046 20.5068 19.6873 19.6905 19.8726 18.82C20.0579 17.9495 20.0409 17.0481 19.8229 16.1852Z"
+                fill="#FF1111"
+              />
+            </svg>
+            <p class="color-[#FF1111] text-base font-medium">Popular</p>
+          </div>
+        </div>
+        <div class="mt-4 md:mt-8">
+          <p class="text-2xl font-semibold">$ 2,389</p>
+          <p class="font-medium text-lg mt-5">Grand Estate on the Hilltop</p>
+          <p class="text-base font-normal mt-5">
+            103 Wright CourtBurien, WA 98168
+          </p>
+          <div class="flex items-center flex-row gap-5 mt-5">
+            <div class="flex items-center flex-row gap-2">
+              <svg
+                width="30"
+                height="23"
+                viewBox="0 0 30 23"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 5.48975H12V13.0284H10.6154V10.4659C10.6138 9.01407 10.0363 7.62213 9.00971 6.5955C7.9831 5.56887 6.59117 4.99138 5.13931 4.98975H2V0.989746H0V22.4897H2V19.5058L28 19.7138V22.4897H30V10.4897C29.9985 9.16413 29.4712 7.89323 28.5339 6.95587C27.5965 6.01852 26.3256 5.49125 25 5.48975ZM2 6.98975H5.13931C6.0609 6.99079 6.94445 7.35735 7.59611 8.00901C8.24777 8.66067 8.61433 9.54422 8.61537 10.4658V13.0283H2V6.98975ZM28 17.7137L2 17.5057V15.0284H28V17.7137ZM28 13.0284H14V7.48975H25C25.7954 7.49066 26.5579 7.80702 27.1203 8.36943C27.6827 8.93184 27.9991 9.69438 28 10.4897V13.0284Z"
+                  fill="#2B2B2B"
+                />
+              </svg>
+              <p>4 Beds</p>
+            </div>
+            <div class="flex items-center flex-row gap-2">
+              <svg
+                width="24"
+                height="25"
+                viewBox="0 0 24 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.4 14.2494H3.2V5.24938C3.19907 4.91045 3.26538 4.5747 3.39509 4.26156C3.5248 3.94843 3.71533 3.66413 3.95565 3.42513L3.97565 3.40513C4.35228 3.02905 4.83584 2.77842 5.36026 2.68748C5.88468 2.59654 6.42438 2.66972 6.90565 2.89703C6.45114 3.65273 6.26222 4.53865 6.36892 5.41402C6.47562 6.28939 6.87181 7.10399 7.49455 7.72838L8.0421 8.27593L7.03425 9.28383L8.16555 10.4151L9.1734 9.40728L14.7579 3.82293L15.7657 2.81508L14.6344 1.68373L13.6264 2.69158L13.0789 2.14403C12.4233 1.4903 11.5592 1.08731 10.637 1.0053C9.71481 0.923285 8.79309 1.16745 8.03245 1.69523C7.23036 1.18869 6.27983 0.97001 5.33702 1.07512C4.39422 1.18023 3.51519 1.60288 2.84435 2.27363L2.82435 2.29363C2.43497 2.68088 2.12627 3.14151 1.91611 3.64887C1.70595 4.15622 1.59851 4.70022 1.6 5.24938V14.2494H0V15.8494H1.6V17.3844C1.59997 17.5134 1.62077 17.6415 1.6616 17.7638L3.15 22.2288C3.22943 22.4679 3.38216 22.6758 3.5865 22.8231C3.79084 22.9704 4.0364 23.0496 4.2883 23.0494H4.9333L4.35 25.0494H6.01665L6.6 23.0494H17.005L17.605 25.0494H19.275L18.675 23.0494H19.7115C19.9634 23.0496 20.209 22.9705 20.4134 22.8232C20.6178 22.6759 20.7706 22.4679 20.85 22.2288L22.3383 17.7638C22.3791 17.6415 22.4 17.5134 22.4 17.3844V15.8494H24V14.2494H22.4ZM8.626 3.27538C9.0668 2.83554 9.66407 2.58852 10.2868 2.58852C10.9095 2.58852 11.5068 2.83554 11.9476 3.27538L12.495 3.82293L9.17355 7.14438L8.626 6.59693C8.18619 6.15612 7.93918 5.55885 7.93918 4.93616C7.93918 4.31346 8.18619 3.71619 8.626 3.27538ZM20.8 17.3194L19.4234 21.4494H4.5766L3.2 17.3194V15.8494H20.8V17.3194Z"
+                  fill="#2B2B2B"
+                />
+              </svg>
+              <p>3 Bath</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="block md:hidden text-[#3A0CA3] py-5 px-7 border border-[#3A0CA3] rounded-full"
+      >
+        View more properties
+      </button>
     </div>
     <div class="mt-25 max-w-[90rem] w-full mx-auto relative hidden lg:block">
       <div
@@ -1102,18 +1163,18 @@
       ></div>
     </div>
     <div class="bg-[#3A0CA3] pt-28 pb-25 z-2 relative mt-25 lg:mt-0">
-      <div class="max-w-[90rem] mx-auto">
+      <div class="max-w-xl md:max-w-[90rem] mx-4 md:mx-auto">
         <p class="text-center text-lg font-medium text-white">
           WHAT’S TRENDING
         </p>
-        <p class="text-center text-white font-semibold text-4xl mt-8">
+        <p class="text-center text-white font-semibold text-4xl mt-5 md:mt-8">
           Latest Blogs & Posts
         </p>
         <div
           id="blogCarousel"
-          class="mt-20 flex flex-col lg:flex-row items-center gap-[3.125rem] mx-40 snap-x snap-mandatory overflow-x-auto no-scrollbar"
+          class="mt-10 md:mt-20 flex flex-col md:flex-row items-center gap-[3.125rem] md:mx-40 snap-x snap-mandatory overflow-x-auto no-scrollbar"
         >
-          <div class="w-[calc((100%-6.250rem)/3)] shrink-0 snap-start">
+          <div class="md:w-[calc((100%-6.250rem)/3)] shrink-0 snap-start">
             <div class="relative">
               <img
                 class="w-full h-auto rounded-lg object-cover"
@@ -1133,7 +1194,7 @@
               Etiam eget elementum elit. Aenean dignissim dapibus vestibulum
             </p>
           </div>
-          <div class="w-[calc((100%-6.250rem)/3)] shrink-0 snap-start">
+          <div class="md:w-[calc((100%-6.250rem)/3)] shrink-0 snap-start">
             <div class="relative">
               <img
                 class="w-full h-auto rounded-lg object-cover"
@@ -1154,7 +1215,7 @@
               nunc.
             </p>
           </div>
-          <div class="w-[calc((100%-6.250rem)/3)] shrink-0 snap-start">
+          <div class="md:w-[calc((100%-6.250rem)/3)] shrink-0 snap-start">
             <div class="relative">
               <img
                 class="w-full h-auto rounded-lg object-cover"
@@ -1175,7 +1236,7 @@
               maximus.
             </p>
           </div>
-          <div class="w-[calc((100%-6.250rem)/3)] shrink-0 snap-start">
+          <div class="md:w-[calc((100%-6.250rem)/3)] shrink-0 snap-start">
             <div class="relative">
               <img
                 class="w-full h-auto rounded-lg object-cover"
@@ -1197,7 +1258,7 @@
             </p>
           </div>
         </div>
-        <div class="flex mt-20 justify-evenly mx-40">
+        <div class="hidden nd:flex mt-20 justify-evenly mx-40">
           <div
             id="blogCarouselBack"
             class="bg-white rounded-full px-5 py-6 cursor-pointer"
@@ -1233,11 +1294,18 @@
             </svg>
           </div>
         </div>
-        <div class="mt-18 mx-auto flex flex-row justify-center gap-10">
+        <div
+          class="hidden mt-18 mx-auto md:flex flex-row justify-center gap-10"
+        >
           <div class="h-1 w-25 bg-white rounded-full"></div>
           <div class="h-1 w-25 bg-white rounded-full opacity-50"></div>
           <div class="h-1 w-25 bg-white rounded-full opacity-50"></div>
         </div>
+        <button
+          class="block md:hidden mt-15 py-5 px-8 bg-white rounded-full text-base font-medium text-[#3A0CA3]"
+        >
+          View more blogs
+        </button>
         <script>
           (() => {
             const blogCarousel = document.getElementById("blogCarousel");
@@ -1274,7 +1342,7 @@
       </div>
     </div>
     <div
-      class="pb-25 pt-30 flex flex-col lg:flex-row items-center gap-43 max-w-[90rem] mx-auto"
+      class="mx-4 md:mx-auto pb-20 md:pb-25 pt-30 flex flex-col lg:flex-row items-center gap-8 md:gap-43 max-w-xl md:max-w-[90rem]"
     >
       <div>
         <p class="text-[#4361EE] font-medium text-lg mb-8">TESTIMONIALS</p>
@@ -1284,7 +1352,7 @@
           pellentesque.
         </p>
 
-        <div class="mt-16 flex items-center gap-12">
+        <div class="hidden md:flex mt-16 items-center gap-12">
           <div class="px-5 py-6 border border-[#4361EE] rounded-full">
             <svg
               width="22"
@@ -1315,7 +1383,7 @@
           </div>
         </div>
       </div>
-      <div class="flex gap-8">
+      <div class="flex flex-col md:flex-row gap-8">
         <div
           class="max-w-lg rounded-4xl px-15 py-8 relative"
           style="box-shadow: 10px 10px 30px 0px #0000001a"
@@ -1328,7 +1396,7 @@
                 rgba(67, 97, 238, 0) 100%
               );
             "
-            class="absolute top-0 left-0 -rotate-[30deg] size-20 rounded-full opacity-50 translate-y-[-50%] translate-x-[-50%]"
+            class="absolute top-0 left-80 md:left-0 -rotate-[30deg] size-12 md:size-20 rounded-full opacity-50 translate-y-[-50%] translate-x-[-50%]"
           ></div>
           <div>
             <svg
@@ -1386,26 +1454,33 @@
             </svg>
           </div>
         </div>
-        <div class="flex flex-col gap-4 justify-center">
+        <div class="hidden md:flex flex-col gap-4 justify-center">
           <div class="bg-[#808080] h-10 w-[4px] rounded-full"></div>
           <div class="bg-[#AAAAAA] h-10 w-[4px] rounded-full"></div>
           <div class="bg-[#AAAAAA] h-10 w-[4px] rounded-full"></div>
         </div>
+        <div class="flex md:hidden gap-4 justify-center">
+          <div class="bg-[#808080] w-10 h-[4px] rounded-full"></div>
+          <div class="bg-[#AAAAAA] w-10 h-[4px] rounded-full"></div>
+          <div class="bg-[#AAAAAA] w-10 h-[4px] rounded-full"></div>
+        </div>
       </div>
     </div>
-    <div class="bg-[rgba(67,97,238,0.1)] pt-20 pb-25">
+    <div class="bg-[rgba(67,97,238,0.1)] pt-20 pb-25 flex items-center">
       <div
-        class="max-w-[90rem] mx-auto flex flex-col lg:flex-row itemse-center justify-evenly"
+        class="max-w-xl md:max-w-[90rem] mx-4 md:mx-auto flex flex-col lg:flex-row items-center justify-evenly w-full"
       >
-        <div class="max-w-2xs">
-          <div class="flex items-center flex-row gap-2">
+        <div class="max-w-2xs text-center">
+          <div class="flex items-center justify-center flex-row gap-2">
             <img
               class="bg-[#3A0CA3] p-3 rounded-full"
               src="public/reshot-icon-house-XJ53QBRVTC 1.png"
             />
             <p class="text-xl font-semibold">Rezilla</p>
           </div>
-          <p class="font-medium text-base mt-8">
+          <p
+            class="text-[#808080] md:text-[#2B2B2B] font-medium text-base mt-8"
+          >
             Lorem ipsum has been the industry standard dummy text
           </p>
           <div class="flex items-center gap-2 mt-12">
@@ -1421,7 +1496,9 @@
                 fill="#2B2B2B"
               />
             </svg>
-            <p class="text-base font-medium">+90123 45 67</p>
+            <p class="text-base font-medium text-[#808080] md:text-[#2B2B2B]">
+              +90123 45 67
+            </p>
           </div>
           <div class="flex items-center gap-2 mt-7">
             <svg
@@ -1444,10 +1521,12 @@
                 stroke-width="1.6"
               />
             </svg>
-            <p class="text-base font-medium">mail@mail.com</p>
+            <p class="text-base font-medium text-[#808080] md:text-[#2B2B2B]">
+              mail@mail.com
+            </p>
           </div>
         </div>
-        <div>
+        <div class="hidden md:block">
           <p class="font-medium text-xl mb-10">Quick Links</p>
           <div class="flex flex-col gap-3">
             <a href="#" class="text-base font-normal text-[#2B2B2B]">Home</a>
@@ -1464,7 +1543,7 @@
             >
           </div>
         </div>
-        <div>
+        <div class="hidden md:block">
           <p class="font-medium text-xl mb-10">Discovery</p>
           <div class="flex flex-col gap-3">
             <a href="#">Canada</a>
@@ -1474,7 +1553,7 @@
             <a href="#">India</a>
           </div>
         </div>
-        <div class="max-w-sm w-full">
+        <div class="md:max-w-sm w-full text-center md:text-start mt-8 md:mt-0">
           <p class="font-medium text-xl mb-5">
             Subscribe to our <br />
             Newsletter!
@@ -1505,7 +1584,7 @@
             </button>
           </div>
           <p class="text-xl font-medium mt-8">Follow Us on</p>
-          <div class="flex items-center gap-5 mt-7">
+          <div class="flex items-center justify-center gap-10 md:gap-5 mt-7">
             <svg
               width="22"
               height="22"
